@@ -1,0 +1,30 @@
+﻿生成启动时间为 2013/3/16 21:15:46。
+     1>项目“F:\myProject\temp\galEngine\galEngine.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt background.cpp
+         background.cpp
+     1>f:\myproject\temp\galengine\background.cpp(74): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\myproject\temp\galengine\background.cpp(93): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\myproject\temp\galengine\background.cpp(104): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\myproject\temp\galengine\background.cpp(122): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\myproject\temp\galengine\background.cpp(155): warning C4018: “<”: 有符号/无符号不匹配
+       Link:
+         F:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\myProject\temp\Debug\galEngine.exe" /INCREMENTAL /NOLOGO winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\myProject\temp\Debug\galEngine.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\myProject\temp\Debug\galEngine.lib" /MACHINE:X86 Debug\background.obj
+         Debug\font.obj
+         Debug\fontString.obj
+         Debug\fps.obj
+         Debug\gameManage.obj
+         Debug\keyManager.obj
+         Debug\myGame.obj
+         Debug\parse.obj
+         Debug\resourceManager.obj
+         Debug\stringManager.obj
+         Debug\style.obj
+         Debug\sysConfig.obj
+         Debug\UIParse.obj
+         galEngine.vcxproj -> F:\myProject\temp\Debug\galEngine.exe
+     1>已完成生成项目“F:\myProject\temp\galEngine\galEngine.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.98

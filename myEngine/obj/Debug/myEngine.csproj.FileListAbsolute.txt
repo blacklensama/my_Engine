@@ -1,0 +1,14 @@
+F:\myProject\myEngine\myEngine\bin\Debug\myEngine.exe
+F:\myProject\myEngine\myEngine\bin\Debug\myEngine.pdb
+F:\myProject\myEngine\myEngine\obj\Debug\myEngine.Properties.Resources.resources
+F:\myProject\myEngine\myEngine\obj\Debug\myEngine.csproj.GenerateResource.Cache
+F:\myProject\myEngine\myEngine\obj\Debug\myEngine.exe
+F:\myProject\myEngine\myEngine\obj\Debug\myEngine.pdb
+F:\myProject\myEngine\myEngine\obj\Debug\myEngine.csprojResolveAssemblyReference.cache
+F:\myProject\temp\myEngine\bin\Debug\myEngine.exe
+F:\myProject\temp\myEngine\bin\Debug\myEngine.pdb
+F:\myProject\temp\myEngine\obj\Debug\myEngine.csprojResolveAssemblyReference.cache
+F:\myProject\temp\myEngine\obj\Debug\myEngine.Properties.Resources.resources
+F:\myProject\temp\myEngine\obj\Debug\myEngine.csproj.GenerateResource.Cache
+F:\myProject\temp\myEngine\obj\Debug\myEngine.exe
+F:\myProject\temp\myEngine\obj\Debug\myEngine.pdb
