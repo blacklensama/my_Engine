@@ -82,7 +82,7 @@
     <ClInclude Include="fontString.h" />
     <ClInclude Include="fps.h" />
     <ClInclude Include="gameManage.h" />
-    <ClInclude Include="gameUI.h" />
+    <ClInclude Include="rectangle.h" />
     <ClInclude Include="keyManager.h" />
     <ClInclude Include="parse.h" />
     <ClInclude Include="resourceManager.h" />
@@ -113,6 +113,7 @@
     <ClCompile Include="keyManager.cpp" />
     <ClCompile Include="myGame.cpp" />
     <ClCompile Include="parse.cpp" />
+    <ClCompile Include="rectangle.cpp" />
     <ClCompile Include="resourceManager.cpp" />
     <ClCompile Include="stringManager.cpp" />
     <ClCompile Include="style.cpp" />

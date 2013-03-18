@@ -8,8 +8,8 @@ class stringManager : public xiayuObject
 public:
 	stringManager()
 	{
-		_backGround1.init(L"background1.txt");
-		_backGround2.init(L"background2.txt");
+		_backGround1.init(L"UIScript\\background1.txt");
+		_backGround2.init(L"UIScript\\background2.txt");
 		_nowUsed = -1;
 	}
 	void init();

@@ -1,5 +1,6 @@
 #pragma once
 
+#include "rectangle.h"
 #include "resourceManager.h"
 #include "parse.h"
 #include "style.h"
@@ -13,6 +14,8 @@ public:
 	void set_bg(UIscript& s);
 	void update();
 	void draw();
+	void setRect(float _x1, float _y1, float _x2, float _y2);
+	bool inRect(float x1, float x2);
 	bool get_draw_status() {return _draw;}
 	void changeBitmap(wstring str);
 	void set_draw_status(bool flag){_draw = flag;}
@@ -23,6 +26,7 @@ private:
 	bool _draw;
 	style _style;
 	ResourceManager* _r;
+	rectangle _rect;
 };
 
 class gameUI : public xiayuObject

@@ -9,6 +9,16 @@ picture::picture()
 	_draw = false;
 }
 
+void picture::setRect(float _x1, float _y1, float _x2, float _y2)
+{
+	_rect.setRect(_x1, _y1, _x2, _y2);
+}
+
+bool picture::inRect(float x1, float y1)
+{
+	return _rect.InRectangle(x1, y1);
+}
+
 void picture::set_bg(script& s)
 {
 	_bitmap = _r->getBitmap((s.file.ToWString()));

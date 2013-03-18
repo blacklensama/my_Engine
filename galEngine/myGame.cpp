@@ -81,6 +81,21 @@ int main(int argc, char** argv)
 		{
 			keyManager::keyDown[ALLEGRO_KEY_ESCAPE] = !keyManager::keyDown[ALLEGRO_KEY_ESCAPE];
 		}
+		if (event.type == ALLEGRO_EVENT_MOUSE_AXES)
+		{
+			keyManager::mouseX = event.mouse.x;
+			keyManager::mouseY = event.mouse.y;
+		}
+		if (event.type == ALLEGRO_EVENT_MOUSE_BUTTON_UP)
+		{
+			if (event.mouse.button == 1)
+			{
+				keyManager::mouseLeftDown = true;
+			}else if (event.mouse.button = 3)
+			{
+				keyManager::mouseRightDown = true;
+			}
+		}
 		if (redraw && al_is_event_queue_empty(queue)) 
 		{
 			redraw = false;

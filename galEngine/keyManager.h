@@ -13,6 +13,8 @@ public:
 	static int mouseY;
 	static bool isPress;
 	static bool press;
+	static bool mouseLeftDown;
+	static bool mouseRightDown;
 private:
 
 };
